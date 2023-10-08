@@ -1,7 +1,7 @@
 # Adaptive-Spatial-Temporal-Graph-Mixer
 Official PyTorch Implementation of the paper: Adaptive Spatial-Temporal Graph-Mixer for Human Motion Prediction.
 
-TRAIN:
+Markup:#TRAIN:#
 
 train_mixer_h36m --input_n 10 --output_n 25 --skip_rate 1
 
