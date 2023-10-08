@@ -181,8 +181,6 @@ def test_pretrained(model,args):
     t_3d_all.append (t_3d[idx_eval]/N)
 
   print('overall average loss in mm is: '+str(accum_loss/n_batches))
-
-  print(t_3d_all)
   print('overall final loss in mm is: ',np.mean(t_3d_all))
 
 
